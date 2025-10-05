@@ -1,0 +1,101 @@
+.header ul li{
+    display: flex;
+    border: 1px solid blue;
+    max-width: fit-content;
+    text-transform: uppercase;
+    background-color: lightgrey;
+    float: left;
+    padding: 5px 5px 5px;
+    list-style: none;
+    margin-left: 2%;
+}
+.header div img {
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    float: left;
+    max-width: 70px;
+}
+.first{
+    border: 2px solid greenyellow;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.first img{
+    width: 100%;
+    object-fit: contain;
+}
+.second{
+    border: 2px solid greenyellow;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.second img{
+    max-width:  100%;
+    object-fit: contain;
+    margin-top: 20px;
+}
+.third{
+    border: 2px solid greenyellow;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.third img{
+    width: 100%;
+    object-fit: contain;
+}
+.fourth{
+    border: 2px solid greenyellow;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.fourth img{
+    width: 100%;
+    object-fit: contain;
+}
+.first, .second, .third, .fourth{
+    background-color: rgb(255, 208, 0);
+    display: flex;
+}
+span h1{
+    border: 2px solid black; margin-top: 50px;
+    background-color: green;
+    text-align: center;
+}
+body{
+    background-color: blueviolet;
+}
+footer{
+    border: 2px brown solid;
+    padding: 5px 5px 5px;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.images div{
+     border: 2px solid greenyellow;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
+.images div img{
+    object-fit: contain;
+    width: 100%;
+
+}
+.customers-table{
+    width: 100%;
+}
+.customers-table, thead, tbody{
+    border: 1px solid black; border-collapse: collapse;
+    margin-top: 20px;
+}
+.customers-table tr:hover{
+    background-color: white;
+}
+
+
+
